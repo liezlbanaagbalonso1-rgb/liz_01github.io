@@ -38,9 +38,9 @@ export function Navigation() {
       style={{ backgroundColor: "#111827", borderColor: "#374151" }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-center h-16">
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
+            <div className="flex items-baseline space-x-8">
               <button
                 data-section="hero"
                 onClick={() => scrollToSection("hero")}
@@ -124,7 +124,7 @@ export function Navigation() {
             </div>
           </div>
 
-          <div className="md:hidden">
+          <div className="md:hidden absolute right-4">
             <Button
               variant="ghost"
               size="sm"
